@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/lluvia"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dia"
+            android:id="@+id/textViewDia" />
+
+        <TextView
+            android:layout_width="309dp"
+            android:layout_height="32dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tiempo"
+            android:id="@+id/textViewTiempo" />
+    </LinearLayout>
+</LinearLayout>
